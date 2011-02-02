@@ -1,0 +1,21 @@
+package main;
+import java.io.IOException;
+
+public class MainBigram {
+
+	public static void main(String[] args) {
+		
+		String corpusName = "data/trainingEx.txt";
+		String testName = "data/testEx.txt";			
+
+		double smoothingParam = 1.0;
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+}
