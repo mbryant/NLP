@@ -16,10 +16,6 @@ public class Main {
 		BigramTrainer bt = new BigramTrainer(trainingCorpus);
 		bt.buildCounts();
 		
-		int i = bt.getTotalDistinctBigrams();
-		
-		System.out.println(Integer.toString(i) + " total distinct bigrams");
-		
 
 		
 	}

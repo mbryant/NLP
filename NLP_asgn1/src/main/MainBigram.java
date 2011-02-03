@@ -1,24 +1,63 @@
 package main;
 
+import java.util.Random;
+
 public class MainBigram {
 
 	public static void main(String[] args) {
 		
-		String corpusName = "data/trainingEx.txt";
-		String testName = "data/testEx.txt";			
+		String corpusName = "data/english-senate-0.txt";
+		String testName = "data/english-senate-2.txt";			
 
-		
 		LogLikeBigram ll = new LogLikeBigram(corpusName, testName);
 		
-		double logLike = ll.getLogLikelihood(1.0, 1.0);
+//		Random rng = new Random();
 		
-		System.out.println(Double.toString(logLike));
+		double alpha = 1.54;
+		double optimalBeta = 140.668;
+//		double b1 = 0.01;
+//		double b2 = 1;
+//		double b3 = 1000;
+//		double LLb1 = ll.getLogLikelihood(alpha, b1);
+//		double LLb2 = ll.getLogLikelihood(alpha, b2);
+//		double LLb3 = ll.getLogLikelihood(alpha, b3);
+		
+		// This strategy produces the optimal beta *for a given alpha*. Will need some sort
+		// of expectation maximization algorithm to overcome this problem. 
+		
+		//double optimalBeta = gs(0,b1,b2,b3,LLb1,LLb2,LLb3,ll,alpha,rng);
+		
+		System.out.println("log likelihood is " + Double.toString(ll.getLogLikelihood(alpha,optimalBeta)));
+		
+		//System.out.println("optimal beta is " + Double.toString(optimalBeta));
 		
 		
 		
 		
 		
 	}
+	
+	public static double gs(int count, double a1, double a2, double a3, double LLa1, double LLa2, double LLa3, LogLikeBigram ll, double alpha, Random rng) {
+			
+			double newBeta = rng.nextDouble() * (a3 - a1) + a1;
+			double LLnew = ll.getLogLikelihood(alpha, newBeta);
+			// simple stopping condition
+			if (count > 200) {return newBeta;}
+			
+			if (LLnew > LLa2) {
+				if (newBeta < a2) {
+					return gs(count + 1, a1, newBeta, a2, LLa1, LLnew, LLa2, ll, alpha, rng);
+				} else {
+					return gs(count + 1, a2, newBeta, a3, LLa2, LLnew, LLa3, ll, alpha, rng);
+				}
+			} else {
+				if (newBeta < a2) {
+					return gs(count + 1, newBeta, a2, a3, LLnew, LLa2, LLa3, ll, alpha, rng);
+				} else {
+					return gs(count + 1, a1, a2, newBeta, LLa1, LLa2, LLnew, ll, alpha, rng);
+				}
+			}
+		}
 	
 	
 	

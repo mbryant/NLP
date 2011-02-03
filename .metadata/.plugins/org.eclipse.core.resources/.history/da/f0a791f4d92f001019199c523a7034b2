@@ -11,14 +11,10 @@ public class Main {
 		
 		// training and test filenames
 		String trainingCorpus = "data/trainingEx.txt";
-		String testCorpus = "data/testEx.txt";
+		String testCorpus = "data/english-senate-1.txt";
 		
 		BigramTrainer bt = new BigramTrainer(trainingCorpus);
 		bt.buildCounts();
-		
-		int i = bt.getTotalDistinctBigrams();
-		
-		System.out.println(Integer.toString(i) + " total distinct bigrams");
 		
 
 		

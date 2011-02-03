@@ -2,7 +2,6 @@ package main;
 
 
 import java.io.IOException;
-import java.util.Iterator;
 
 public class BigramTrainer {
 
@@ -57,18 +56,6 @@ public class BigramTrainer {
 	
 	public int getBigramCount(String wd1, String wd2) {
 		return this.dict.getBigramCount(wd1, wd2);
-	}
-	
-	public int getDistinctBigrams(String wd) {
-		return this.dict.hm.get(wd).second.keySet().size();
-	}
-	
-	public int getTotalDistinctBigrams() {
-		int count = 0;
-		for (Iterator<String> it = this.dict.hm.keySet().iterator(); it.hasNext();) {
-			count = count + getDistinctBigrams(it.next());
-		}
-		return count;
 	}
 	
 	public int getVocabSize() {

@@ -16,9 +16,9 @@ public class Main {
 		BigramTrainer bt = new BigramTrainer(trainingCorpus);
 		bt.buildCounts();
 		
-		int i = bt.getTotalDistinctBigrams();
+		int i = bt.getDistinctBigrams("the");
 		
-		System.out.println(Integer.toString(i) + " total distinct bigrams");
+		System.out.println(Integer.toString(i) + " distinct bigrams start with 'the'");
 		
 
 		
