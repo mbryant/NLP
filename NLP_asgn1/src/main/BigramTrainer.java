@@ -3,10 +3,12 @@ package main;
 
 import java.io.IOException;
 import java.util.Iterator;
+import java.util.HashMap;
 
 public class BigramTrainer {
 
 	BigramDictionary dict;
+	HashMap<String,Integer> precedingWords;
 	WordReader wr;
 	int totalNumWords;
 	
@@ -14,6 +16,7 @@ public class BigramTrainer {
 	public BigramTrainer(String fileName) {
 		this.wr = new WordReader(fileName);
 		this.dict = new BigramDictionary();
+		this.precedingWords = new HashMap<String,Integer>();
 		this.totalNumWords = 0;
 	}
 	
@@ -36,20 +39,38 @@ public class BigramTrainer {
 		}
 		
 		this.dict.insertBigram("**STOP**", wd1);
+		this.incrementPrecedingWordCount(wd1);
 		
 		// read the file and insert all the bigrams
 		while (this.wr.hasNextItem()) {
 			wd2 = this.wr.readWord();
 			this.totalNumWords++;
 			this.dict.insertBigram(wd1, wd2);
+			if (this.dict.getBigramCount(wd1, wd2) == 1) {
+				this.incrementPrecedingWordCount(wd2);
+			}
 			wd1 = wd2;
 		}
 		
 		// insert the last bigram
 		this.dict.insertBigram(wd1, "**STOP**");
+		this.incrementPrecedingWordCount("**STOP**");
 		
 		this.wr.closeFile();
 	}
+	
+	public void incrementPrecedingWordCount(String wd1) {
+		try {
+			int prevCount = this.precedingWords.get(wd1);
+			this.precedingWords.put(wd1, prevCount + 1);	
+		} catch (NullPointerException e) {
+			this.precedingWords.put(wd1, 1);
+		}
+		
+	}
+	
+	
+	// GET methods //
 	
 	public int getUnigramCount(String wd) {
 		return this.dict.getWordCount(wd);
@@ -60,7 +81,11 @@ public class BigramTrainer {
 	}
 	
 	public int getDistinctBigrams(String wd) {
-		return this.dict.hm.get(wd).second.keySet().size();
+		try {
+			return this.dict.hm.get(wd).second.keySet().size();
+		} catch (NullPointerException e) {
+			return 0;
+		}
 	}
 	
 	public int getTotalDistinctBigrams() {
@@ -77,6 +102,14 @@ public class BigramTrainer {
 	
 	public int getTotalWordCount() {
 		return this.totalNumWords;
+	}
+	
+	public int getPrecedingWords(String wd) {
+		try {
+			return this.precedingWords.get(wd);
+		} catch (NullPointerException e) {
+			return 0;
+		}
 	}
 
 	

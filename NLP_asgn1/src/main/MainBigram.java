@@ -11,10 +11,10 @@ public class MainBigram {
 
 		LogLikeBigram ll = new LogLikeBigram(corpusName, testName);
 		
-//		Random rng = new Random();
+		double mu = 0.7634;
+		double lambda = 0.6824;
 		
-		double alpha = 1.54;
-		double optimalBeta = 140.668;
+//		Random rng = new Random();
 //		double b1 = 0.01;
 //		double b2 = 1;
 //		double b3 = 1000;
@@ -27,10 +27,12 @@ public class MainBigram {
 		
 		//double optimalBeta = gs(0,b1,b2,b3,LLb1,LLb2,LLb3,ll,alpha,rng);
 		
-		System.out.println("log likelihood is " + Double.toString(ll.getLogLikelihood(alpha,optimalBeta)));
-		
-		//System.out.println("optimal beta is " + Double.toString(optimalBeta));
-		
+		// generates the LL the old way
+		double logLikelihood = ll.getLogLikelihood(1.54, 180);
+		System.out.println(Double.toString(logLikelihood));
+		// generates the LL with a type of mixture model
+		logLikelihood = ll.getLogLikelihood2(mu, lambda);
+		System.out.println(Double.toString(logLikelihood));
 		
 		
 		

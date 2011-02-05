@@ -7,7 +7,7 @@ public class WordReader {
 	String fileName;
 	FileReader fr;
 	Scanner in;
-	boolean ignoreCase = true;
+	boolean ignoreCase = false;
 
 	// constructor
 	public WordReader(String fileName) {
@@ -34,6 +34,8 @@ public class WordReader {
 			return this.in.next().toUpperCase();
 		}
 		
+	
+	
 	}
 }
 
