@@ -15,9 +15,9 @@ public class MainOptimalUnigram {
 			LogLikeUnigram ll =  new LogLikeUnigram(corpusName, heldoutName);
 			// three initial smoothing param values for golden section search and their log likelihoods
 			// this is somewhat ad hoc for this situation, wouldn't necessarily be optimal for other corpora
-			double a1 = 0.01;
+			double a1 = 0.001;
 			double a2 = 5.0;
-			double a3 = 500.0;
+			double a3 = 5000.0;
 			double LLa1 = ll.getLogLikelihood(a1);
 			double LLa2 = ll.getLogLikelihood(a2);
 			double LLa3 = ll.getLogLikelihood(a3);
@@ -41,7 +41,7 @@ public class MainOptimalUnigram {
 		double newAlpha = rng.nextDouble() * (a3 - a1) + a1;
 		double LLnew = ll.getLogLikelihood(newAlpha);
 		// simple stopping condition
-		if (count > 200) {return newAlpha;}
+		if (count > 500) {return newAlpha;}
 		
 		if (LLnew > LLa2) {
 			if (newAlpha < a2) {

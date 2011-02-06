@@ -6,12 +6,11 @@ public class MainUnigram {
 
 	public static void main(String[] args) throws IOException {
 		
-		String corpusName = "/home/mbryant/workspace/NLP_asgn1/data/english-senate-0.txt";
-		String testName = "/home/mbryant/workspace/NLP_asgn1/data/testEx.txt";			
+		String corpusName = "data/english-senate-0.txt";
+		String testName = "data/english-senate-2.txt";			
 		
 		double smoothingParam = 1.0;
 		System.out.println("The smoothing parameter in use is " + Double.toString(smoothingParam));
-		
 		
 		LogLikeUnigram llTest = new LogLikeUnigram(corpusName, testName);
 		

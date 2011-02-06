@@ -7,56 +7,65 @@ public class MainBigram {
 	public static void main(String[] args) {
 		
 		String corpusName = "data/english-senate-0.txt";
+		String heldoutName = "data/english-senate-1.txt";
 		String testName = "data/english-senate-2.txt";			
 
-		LogLikeBigram ll = new LogLikeBigram(corpusName, testName);
+		LogLikeBigram ll = new LogLikeBigram(corpusName, heldoutName);
 		
 		double mu = 0.7634;
 		double lambda = 0.6824;
 		
-//		Random rng = new Random();
-//		double b1 = 0.01;
-//		double b2 = 1;
-//		double b3 = 1000;
-//		double LLb1 = ll.getLogLikelihood(alpha, b1);
-//		double LLb2 = ll.getLogLikelihood(alpha, b2);
-//		double LLb3 = ll.getLogLikelihood(alpha, b3);
+		double beta = 1;
+		Random rng = new Random();
+		double a1 = 0.01;
+		double a2 = 1;
+		double a3 = 1000;
+		double LLa1 = ll.getLogLikelihood(a1, beta);
+		double LLa2 = ll.getLogLikelihood(a2, beta);
+		double LLa3 = ll.getLogLikelihood(a3, beta);
 		
-		// This strategy produces the optimal beta *for a given alpha*. Will need some sort
+		// This strategy produces the optimal alpha *for a given beta*. Will need some sort
 		// of expectation maximization algorithm to overcome this problem. 
 		
-		//double optimalBeta = gs(0,b1,b2,b3,LLb1,LLb2,LLb3,ll,alpha,rng);
+		double optimalAlpha = gs(0,a1,a2,a3,LLa1,LLa2,LLa3,ll,beta,rng);
+		
+		System.out.println("Optimal alpha given beta=1 is " + Double.toString(optimalAlpha));
+		
+		ll.shutter();
+		
+		LogLikeBigram llTest = new LogLikeBigram(corpusName, testName);
 		
 		// generates the LL the old way
-		double logLikelihood = ll.getLogLikelihood(1.54, 180);
+		double logLikelihood = llTest.getLogLikelihood(optimalAlpha, beta);
 		System.out.println(Double.toString(logLikelihood));
 		// generates the LL with a type of mixture model
-		logLikelihood = ll.getLogLikelihood2(mu, lambda);
+		logLikelihood = llTest.getLogLikelihood2(mu, lambda);
 		System.out.println(Double.toString(logLikelihood));
 		
 		
+		llTest.shutter();
 		
 		
 	}
 	
-	public static double gs(int count, double a1, double a2, double a3, double LLa1, double LLa2, double LLa3, LogLikeBigram ll, double alpha, Random rng) {
+	public static double gs(int count, double a1, double a2, double a3, double LLa1, double LLa2, double LLa3, LogLikeBigram ll, double beta, Random rng) {
 			
-			double newBeta = rng.nextDouble() * (a3 - a1) + a1;
-			double LLnew = ll.getLogLikelihood(alpha, newBeta);
+			double newAlpha = rng.nextDouble() * (a3 - a1) + a1;
+			double LLnew = ll.getLogLikelihood(newAlpha, beta);
 			// simple stopping condition
-			if (count > 200) {return newBeta;}
+			if (count > 200) {return newAlpha;}
 			
 			if (LLnew > LLa2) {
-				if (newBeta < a2) {
-					return gs(count + 1, a1, newBeta, a2, LLa1, LLnew, LLa2, ll, alpha, rng);
+				if (newAlpha < a2) {
+					return gs(count + 1, a1, newAlpha, a2, LLa1, LLnew, LLa2, ll, beta, rng);
 				} else {
-					return gs(count + 1, a2, newBeta, a3, LLa2, LLnew, LLa3, ll, alpha, rng);
+					return gs(count + 1, a2, newAlpha, a3, LLa2, LLnew, LLa3, ll, beta, rng);
 				}
 			} else {
-				if (newBeta < a2) {
-					return gs(count + 1, newBeta, a2, a3, LLnew, LLa2, LLa3, ll, alpha, rng);
+				if (newAlpha < a2) {
+					return gs(count + 1, newAlpha, a2, a3, LLnew, LLa2, LLa3, ll, beta, rng);
 				} else {
-					return gs(count + 1, a1, a2, newBeta, LLa1, LLa2, LLnew, ll, alpha, rng);
+					return gs(count + 1, a1, a2, newAlpha, LLa1, LLa2, LLnew, ll, beta, rng);
 				}
 			}
 		}

@@ -32,11 +32,12 @@
 <part id="3"/>
 <part id="4"/>
 <part id="0"/>
-<part id="2"/>
 <part id="6"/>
 <part id="7"/>
 <part id="8"/>
 <part id="9"/>
+<part id="2"/>
+<part id="11"/>
 <part id="10"/>
 </presentation>
 </folder>
@@ -60,7 +61,7 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LogLikeBigram.java" partName="LogLikeBigram.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn1/src/main/LogLikeBigram.java" title="LogLikeBigram.java" tooltip="NLP_asgn1/src/main/LogLikeBigram.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn1/src/main/LogLikeBigram.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="6385"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="1317"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BigramDictionary.java" partName="BigramDictionary.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn1/src/main/BigramDictionary.java" title="BigramDictionary.java" tooltip="NLP_asgn1/src/main/BigramDictionary.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn1/src/main/BigramDictionary.java"/>
@@ -68,23 +69,27 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainOptimalUnigram.java" partName="MainOptimalUnigram.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn1/src/main/MainOptimalUnigram.java" title="MainOptimalUnigram.java" tooltip="NLP_asgn1/src/main/MainOptimalUnigram.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn1/src/main/MainOptimalUnigram.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="1858"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainBigram.java" partName="MainBigram.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn1/src/main/MainBigram.java" title="MainBigram.java" tooltip="NLP_asgn1/src/main/MainBigram.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainBigram.java" partName="MainBigram.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn1/src/main/MainBigram.java" title="MainBigram.java" tooltip="NLP_asgn1/src/main/MainBigram.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn1/src/main/MainBigram.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="1106"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="1202"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainEM.java" partName="MainEM.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn1/src/main/MainEM.java" title="MainEM.java" tooltip="NLP_asgn1/src/main/MainEM.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn1/src/main/MainEM.java"/>
-<editorState selectionHPixel="0" selectionLength="105" selectionOffset="257"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="539"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WordReader.java" partName="WordReader.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn1/src/main/WordReader.java" title="WordReader.java" tooltip="NLP_asgn1/src/main/WordReader.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn1/src/main/WordReader.java"/>
 <editorState selectionHPixel="0" selectionLength="0" selectionOffset="489"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainGoodBad.java" partName="MainGoodBad.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn1/src/main/MainGoodBad.java" title="MainGoodBad.java" tooltip="NLP_asgn1/src/main/MainGoodBad.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainGoodBad.java" partName="MainGoodBad.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn1/src/main/MainGoodBad.java" title="MainGoodBad.java" tooltip="NLP_asgn1/src/main/MainGoodBad.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn1/src/main/MainGoodBad.java"/>
 <editorState selectionHPixel="0" selectionLength="0" selectionOffset="170"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainUnigram.java" partName="MainUnigram.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn1/src/main/MainUnigram.java" title="MainUnigram.java" tooltip="NLP_asgn1/src/main/MainUnigram.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn1/src/main/MainUnigram.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="531"/>
 </editor>
 </editors>
 <views>
@@ -308,58 +313,42 @@
 <view id="org.eclipse.debug.ui.BreakpointView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
-<part id="0"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7806604" ratioLeft="662" ratioRight="186" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7806604" ratioLeft="662" ratioRight="186" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
 <page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
-<part id="0"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.15189873" ratioLeft="96" ratioRight="536" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
-<part id="0"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="636" ratioRight="636" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="636" ratioRight="636" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
-<part id="0"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
@@ -373,159 +362,164 @@
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/MainGoodBad.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/LogLikeUnigram.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/BigramTrainer.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/LogLikeBigram.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/MainUnigram.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/LogLikeUnigram.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/WordReader.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/MainOptimalUnigram.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/MainBigram.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/LogLikeBigram.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/MainEM.java"/>
 </editors>
-<item historyLabel="MainGoodBad.java" index="0">
-<position/>
-</item>
-<item historyLabel="MainGoodBad.java" index="0">
-<position/>
-</item>
-<item historyLabel="MainGoodBad.java" index="0">
-<position/>
-</item>
-<item historyLabel="MainGoodBad.java" index="0">
-<position/>
-</item>
-<item historyLabel="MainGoodBad.java" index="0">
-<position/>
-</item>
-<item historyLabel="MainGoodBad.java" index="0">
-<position/>
-</item>
-<item historyLabel="MainGoodBad.java" index="0">
-<position/>
-</item>
-<item historyLabel="MainGoodBad.java" index="0">
-<position/>
-</item>
-<item historyLabel="MainGoodBad.java" index="0">
-<position/>
-</item>
-<item historyLabel="MainGoodBad.java" index="0">
-<position/>
-</item>
-<item historyLabel="MainGoodBad.java" index="0">
-<position/>
-</item>
-<item historyLabel="MainGoodBad.java" index="0">
-<position/>
-</item>
-<item historyLabel="MainGoodBad.java" index="0">
-<position/>
-</item>
-<item historyLabel="MainGoodBad.java" index="0">
-<position/>
-</item>
-<item historyLabel="MainGoodBad.java" index="0">
-<position/>
-</item>
-<item historyLabel="MainGoodBad.java" index="0">
-<position/>
-</item>
-<item historyLabel="MainGoodBad.java" index="0">
-<position info="not_deleted" x="500" y="0"/>
-</item>
-<item historyLabel="MainGoodBad.java" index="0">
-<position info="not_deleted" x="557" y="0"/>
-</item>
-<item historyLabel="MainGoodBad.java" index="0">
-<position info="not_deleted" x="347" y="0"/>
-</item>
-<item historyLabel="BigramTrainer.java" index="2">
-<position info="not_deleted" x="2295" y="0"/>
-</item>
-<item historyLabel="LogLikeBigram.java" index="3">
-<position info="not_deleted" x="2817" y="0"/>
-</item>
-<item historyLabel="LogLikeBigram.java" index="3">
-<position info="not_deleted" x="1045" y="0"/>
-</item>
-<item historyLabel="LogLikeBigram.java" index="3">
-<position info="not_deleted" x="1098" y="0"/>
-</item>
-<item historyLabel="LogLikeBigram.java" index="3">
-<position info="not_deleted" x="1124" y="0"/>
-</item>
-<item historyLabel="LogLikeBigram.java" index="3">
-<position info="not_deleted" x="1217" y="0"/>
-</item>
-<item historyLabel="LogLikeBigram.java" index="3">
-<position info="not_deleted" x="1269" y="0"/>
-</item>
-<item historyLabel="MainBigram.java" index="4">
-<position info="not_deleted" x="1106" y="0"/>
-</item>
-<item historyLabel="MainGoodBad.java" index="0">
-<position info="not_deleted" x="347" y="0"/>
-</item>
-<item historyLabel="LogLikeBigram.java" index="3">
-<position info="not_deleted" x="1269" y="0"/>
-</item>
-<item historyLabel="LogLikeBigram.java" index="3">
-<position info="not_deleted" x="4788" y="0"/>
-</item>
-<item historyLabel="LogLikeUnigram.java" index="1">
-<position info="not_deleted" x="2360" y="0"/>
-</item>
-<item historyLabel="LogLikeBigram.java" index="3">
-<position info="not_deleted" x="4788" y="0"/>
-</item>
-<item historyLabel="LogLikeBigram.java" index="3">
+<item historyLabel="LogLikeBigram.java" index="2">
 <position info="not_deleted" x="5699" y="0"/>
 </item>
 <item historyLabel="LogLikeUnigram.java" index="1">
 <position info="not_deleted" x="2360" y="0"/>
 </item>
-<item historyLabel="LogLikeBigram.java" index="3">
+<item historyLabel="LogLikeBigram.java" index="2">
 <position info="not_deleted" x="5699" y="0"/>
 </item>
-<item historyLabel="LogLikeBigram.java" index="3">
+<item historyLabel="LogLikeBigram.java" index="2">
 <position info="not_deleted" x="5062" y="0"/>
 </item>
-<item historyLabel="LogLikeBigram.java" index="3">
+<item historyLabel="LogLikeBigram.java" index="2">
 <position info="not_deleted" x="5063" y="0"/>
 </item>
-<item historyLabel="LogLikeBigram.java" index="3">
+<item historyLabel="LogLikeBigram.java" index="2">
 <position info="not_deleted" x="5116" y="0"/>
 </item>
-<item historyLabel="LogLikeBigram.java" index="3">
+<item historyLabel="LogLikeBigram.java" index="2">
 <position info="not_deleted" x="5118" y="0"/>
 </item>
-<item historyLabel="LogLikeBigram.java" index="3">
+<item historyLabel="LogLikeBigram.java" index="2">
 <position info="not_deleted" x="5698" y="0"/>
 </item>
 <item historyLabel="MainGoodBad.java" index="0">
 <position info="not_deleted" x="2300" y="0"/>
 </item>
-<item historyLabel="LogLikeBigram.java" index="3">
+<item historyLabel="LogLikeBigram.java" index="2">
 <position info="not_deleted" x="5699" y="0"/>
 </item>
-<item historyLabel="LogLikeBigram.java" index="3">
+<item historyLabel="LogLikeBigram.java" index="2">
 <position info="not_deleted" x="5970" y="0"/>
 </item>
-<item historyLabel="LogLikeBigram.java" index="3">
+<item historyLabel="LogLikeBigram.java" index="2">
 <position info="not_deleted" x="6021" y="0"/>
 </item>
-<item historyLabel="LogLikeBigram.java" index="3">
+<item historyLabel="LogLikeBigram.java" index="2">
 <position info="not_deleted" x="6052" y="0"/>
 </item>
-<item historyLabel="LogLikeBigram.java" index="3">
+<item historyLabel="LogLikeBigram.java" index="2">
 <position info="not_deleted" x="6051" y="0"/>
 </item>
-<item historyLabel="LogLikeBigram.java" index="3">
+<item historyLabel="LogLikeBigram.java" index="2">
 <position info="not_deleted" x="6385" y="0"/>
 </item>
 <item historyLabel="MainGoodBad.java" index="0">
 <position info="not_deleted" x="3533" y="0"/>
 </item>
-<item historyLabel="LogLikeBigram.java" index="3">
+<item historyLabel="LogLikeBigram.java" index="2">
 <position info="not_deleted" x="6385" y="0"/>
 </item>
-<item active="true" historyLabel="MainGoodBad.java" index="0">
+<item historyLabel="MainGoodBad.java" index="0">
 <position info="not_deleted" x="3533" y="0"/>
+</item>
+<item historyLabel="MainUnigram.java" index="3">
+<position/>
+</item>
+<item historyLabel="LogLikeUnigram.java" index="4">
+<position info="not_deleted" x="2360" y="0"/>
+</item>
+<item historyLabel="MainUnigram.java" index="3">
+<position info="not_deleted" x="253" y="0"/>
+</item>
+<item historyLabel="WordReader.java" index="5">
+<position info="not_deleted" x="489" y="0"/>
+</item>
+<item historyLabel="MainUnigram.java" index="3">
+<position info="not_deleted" x="253" y="0"/>
+</item>
+<item historyLabel="LogLikeUnigram.java" index="4">
+<position info="not_deleted" x="2360" y="0"/>
+</item>
+<item historyLabel="MainUnigram.java" index="3">
+<position info="not_deleted" x="253" y="0"/>
+</item>
+<item historyLabel="LogLikeUnigram.java" index="4">
+<position info="not_deleted" x="2360" y="0"/>
+</item>
+<item historyLabel="MainUnigram.java" index="3">
+<position info="not_deleted" x="253" y="0"/>
+</item>
+<item historyLabel="MainUnigram.java" index="3">
+<position/>
+</item>
+<item historyLabel="MainUnigram.java" index="3">
+<position/>
+</item>
+<item historyLabel="MainUnigram.java" index="3">
+<position/>
+</item>
+<item historyLabel="MainOptimalUnigram.java" index="6">
+<position/>
+</item>
+<item historyLabel="MainGoodBad.java" index="0">
+<position info="not_deleted" x="2632" y="0"/>
+</item>
+<item historyLabel="MainBigram.java" index="7">
+<position info="not_deleted" x="1357" y="0"/>
+</item>
+<item historyLabel="MainBigram.java" index="7">
+<position info="not_deleted" x="213" y="0"/>
+</item>
+<item historyLabel="LogLikeBigram.java" index="8">
+<position info="not_deleted" x="1317" y="0"/>
+</item>
+<item historyLabel="MainBigram.java" index="7">
+<position info="not_deleted" x="2140" y="0"/>
+</item>
+<item historyLabel="MainBigram.java" index="7">
+<position info="not_deleted" x="1039" y="0"/>
+</item>
+<item historyLabel="MainBigram.java" index="7">
+<position info="not_deleted" x="883" y="0"/>
+</item>
+<item historyLabel="MainBigram.java" index="7">
+<position info="not_deleted" x="918" y="0"/>
+</item>
+<item historyLabel="MainBigram.java" index="7">
+<position info="not_deleted" x="950" y="0"/>
+</item>
+<item historyLabel="MainBigram.java" index="7">
+<position info="not_deleted" x="951" y="0"/>
+</item>
+<item historyLabel="MainBigram.java" index="7">
+<position info="not_deleted" x="1389" y="0"/>
+</item>
+<item historyLabel="MainBigram.java" index="7">
+<position info="not_deleted" x="1387" y="0"/>
+</item>
+<item historyLabel="MainEM.java" index="9">
+<position info="not_deleted" x="539" y="0"/>
+</item>
+<item historyLabel="MainBigram.java" index="7">
+<position info="not_deleted" x="1363" y="0"/>
+</item>
+<item historyLabel="MainGoodBad.java" index="0">
+<position info="not_deleted" x="1744" y="0"/>
+</item>
+<item historyLabel="MainBigram.java" index="7">
+<position info="not_deleted" x="1363" y="0"/>
+</item>
+<item historyLabel="MainEM.java" index="9">
+<position info="not_deleted" x="539" y="0"/>
+</item>
+<item historyLabel="MainGoodBad.java" index="0">
+<position info="not_deleted" x="170" y="0"/>
+</item>
+<item active="true" historyLabel="MainBigram.java" index="7">
+<position info="not_deleted" x="1363" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -544,6 +538,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainUnigram.java" tooltip="NLP_asgn1/src/main/MainUnigram.java">
+<persistable path="/NLP_asgn1/src/main/MainUnigram.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainGoodBad.java" tooltip="NLP_asgn1/src/main/MainGoodBad.java">
 <persistable path="/NLP_asgn1/src/main/MainGoodBad.java"/>
 </file>

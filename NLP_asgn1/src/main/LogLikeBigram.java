@@ -41,7 +41,7 @@ public class LogLikeBigram {
 		
 	}
 	
-	// old way of doing things
+	// return log likelihood of the open file
 	public double getLogLikelihood(double alpha, double beta) {
 		
 		String wd1 = null;
