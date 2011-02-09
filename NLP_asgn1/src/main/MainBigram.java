@@ -10,37 +10,40 @@ public class MainBigram {
 		String heldoutName = "data/english-senate-1.txt";
 		String testName = "data/english-senate-2.txt";			
 
-		LogLikeBigram ll = new LogLikeBigram(corpusName, heldoutName);
+//		LogLikeBigram ll = new LogLikeBigram(corpusName, heldoutName);
 		
 		double mu = 0.7634;
 		double lambda = 0.6824;
 		
-		double beta = 1;
-		Random rng = new Random();
-		double a1 = 0.01;
-		double a2 = 1;
-		double a3 = 1000;
-		double LLa1 = ll.getLogLikelihood(a1, beta);
-		double LLa2 = ll.getLogLikelihood(a2, beta);
-		double LLa3 = ll.getLogLikelihood(a3, beta);
-		
-		// This strategy produces the optimal alpha *for a given beta*. Will need some sort
-		// of expectation maximization algorithm to overcome this problem. 
-		
-		double optimalAlpha = gs(0,a1,a2,a3,LLa1,LLa2,LLa3,ll,beta,rng);
-		
-		System.out.println("Optimal alpha given beta=1 is " + Double.toString(optimalAlpha));
-		
-		ll.shutter();
-		
+//		double beta = 1;
+//		Random rng = new Random();
+//		double a1 = 0.01;
+//		double a2 = 1;
+//		double a3 = 1000;
+//		double LLa1 = ll.getLogLikelihood(a1, beta);
+//		double LLa2 = ll.getLogLikelihood(a2, beta);
+//		double LLa3 = ll.getLogLikelihood(a3, beta);
+//		
+//		// This strategy produces the optimal alpha *for a given beta*. Will need some sort
+//		// of expectation maximization algorithm to overcome this problem. 
+//		
+//		double optimalAlpha = gs(0,a1,a2,a3,LLa1,LLa2,LLa3,ll,beta,rng);
+//		
+//		System.out.println("Optimal alpha given beta=1 is " + Double.toString(optimalAlpha));
+//		
+//		ll.shutter();
+//		
 		LogLikeBigram llTest = new LogLikeBigram(corpusName, testName);
 		
 		// generates the LL the old way
-		double logLikelihood = llTest.getLogLikelihood(optimalAlpha, beta);
-		System.out.println(Double.toString(logLikelihood));
+//		double logLikelihood = llTest.getLogLikelihood(optimalAlpha, beta);
+//		System.out.println(Double.toString(logLikelihood));
 		// generates the LL with a type of mixture model
-		logLikelihood = llTest.getLogLikelihood2(mu, lambda);
+		double logLikelihood = llTest.getLogLikelihoodKN(mu, lambda);
 		System.out.println(Double.toString(logLikelihood));
+		logLikelihood = llTest.getLogLikelihood2(mu,lambda);
+		System.out.println(Double.toString(logLikelihood));
+		
 		
 		
 		llTest.shutter();

@@ -9,6 +9,7 @@ public class LogLikeBigram {
 	
 	int vocabSize;
 	int wordCount;
+	int distinctBigrams;
 	
 	/* - initializes a bigramTrainer on the training corpus
 	 * - builds the bigramDictionary of all the bigram and unigram counts
@@ -26,6 +27,7 @@ public class LogLikeBigram {
 		
 		this.vocabSize = this.bt.getVocabSize();
 		this.wordCount = this.bt.getTotalWordCount();
+		this.distinctBigrams = this.bt.getTotalDistinctBigrams();
 		
 		} catch (Exception e) {e.printStackTrace();}
 	}
@@ -37,6 +39,7 @@ public class LogLikeBigram {
 			this.bt.buildCounts();
 			this.vocabSize = this.bt.getVocabSize();
 			this.wordCount = this.bt.getTotalWordCount();
+			this.distinctBigrams = this.bt.getTotalDistinctBigrams();
 		} catch (Exception e) {e.printStackTrace();}
 		
 	}
@@ -148,6 +151,75 @@ public class LogLikeBigram {
 		return logLikelihood;
 	}
 	
+// get the log likelihood of the open file using Kneser-Ney
+public double getLogLikelihoodKN(double mu, double lambda) {
+		
+		String wd1 = null;
+		String wd2 = null;
+		double logLikelihood = 0;
+		double probBigram;
+		double w1Count;
+		double w2Bigrams;
+		double bgCount;
+		
+		if (this.testReader.hasNextItem()) {
+			wd2 = this.testReader.readWord();
+		} else {System.out.println("please no!");}
+		
+		wd1 = "**STOP**";
+		
+		w1Count = this.bt.getUnigramCount(wd1);
+		w2Bigrams = this.bt.getDistinctBigrams(wd2);
+		bgCount = this.bt.getBigramCount(wd1, wd2);
+		if (w1Count != 0) {
+			probBigram = ((lambda * bgCount / w1Count) + 
+						  ((1 - lambda)*(mu)* w2Bigrams / this.distinctBigrams) + 
+						  ((1 - lambda)*(1 - mu) / this.vocabSize));
+		} else {
+			probBigram = (((1 - lambda)*(mu)* w2Bigrams / this.distinctBigrams) +
+						  ((1 - lambda)*(1 - mu) / this.vocabSize));
+		}		
+		logLikelihood = logLikelihood + Math.log(probBigram);
+		
+		wd1 = wd2;
+		
+		while (this.testReader.hasNextItem()) {
+			wd2 = this.testReader.readWord();
+			w1Count = this.bt.getUnigramCount(wd1);
+			w2Bigrams = this.bt.getUnigramCount(wd2);
+			bgCount = this.bt.getBigramCount(wd1, wd2);
+			if (w1Count != 0) {
+				probBigram = ((lambda * bgCount / w1Count) + 
+							  ((1 - lambda)*(mu)* w2Bigrams / this.distinctBigrams) + 
+							  ((1 - lambda)*(1 - mu) / this.vocabSize));
+			} else {
+				probBigram = (((1 - lambda)*(mu)* w2Bigrams / this.distinctBigrams) +
+							  ((1 - lambda)*(1 - mu) / this.vocabSize));
+			}			
+			logLikelihood = logLikelihood + Math.log(probBigram);
+			wd1 = wd2;			
+		}
+		
+		wd2 = "**STOP**";
+		
+		w1Count = this.bt.getUnigramCount(wd1);
+		w2Bigrams = this.bt.getUnigramCount(wd2);
+		bgCount = this.bt.getBigramCount(wd1, wd2);
+		if (w1Count != 0) {
+			probBigram = ((lambda * bgCount / w1Count) + 
+						  ((1 - lambda)*(mu)* w2Bigrams / this.distinctBigrams) + 
+						  ((1 - lambda)*(1 - mu) / this.vocabSize));
+		} else {
+			probBigram = (((1 - lambda)*(mu)* w2Bigrams / this.distinctBigrams) +
+						  ((1 - lambda)*(1 - mu) / this.vocabSize));
+		}			
+		logLikelihood = logLikelihood + Math.log(probBigram);
+		
+		this.resetFile();
+		
+		return logLikelihood;
+	}
+
 	// get the log likelihood of a string using the mixture way
 	public double getLogLikelihood2(double mu, double lambda, String s) {
 		String wd1 = null;
@@ -180,6 +252,40 @@ public class LogLikeBigram {
 		}
 		return logLikelihood;
 	}
+	
+	// get log likelihood of a string using Kneser-Ney
+	public double getLogLikelihoodKN(double mu, double lambda, String s) {
+		String wd1 = null;
+		String wd2 = null;
+		double logLikelihood = 0;
+		double probBigram;
+		double w1Count;
+		double w2Bigrams;
+		double bgCount;
+		Scanner lineR = new Scanner(s);
+		
+		if (lineR.hasNext()) {
+			wd1 = lineR.next();
+		}
+		while (lineR.hasNext()) {
+			wd2 = lineR.next();
+			w1Count = this.bt.getUnigramCount(wd1);
+			w2Bigrams = this.bt.getPrecedingWords(wd2);
+			bgCount = this.bt.getBigramCount(wd1, wd2);
+			if (w1Count != 0) {
+				probBigram = ((lambda * bgCount / w1Count) + 
+							  ((1 - lambda)*(mu)* w2Bigrams / this.distinctBigrams) + 
+							  ((1 - lambda)*(1 - mu) / this.vocabSize));
+			} else {
+				probBigram = (((1 - lambda)*(mu)* w2Bigrams / this.distinctBigrams) +
+							  ((1 - lambda)*(1 - mu) / this.vocabSize));
+			}		
+			logLikelihood = logLikelihood + Math.log(probBigram);
+			wd1 = wd2;			
+		}
+		return logLikelihood;
+	}
+	
 	
 	// log likelihood of a string using the old way
 	public double getLogLikelihood(double alpha, double beta, String s) {
