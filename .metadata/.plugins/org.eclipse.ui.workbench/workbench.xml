@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="19" version="2.0">
+<workbench progressCount="14" version="2.0">
 <workbenchAdvisor/>
 <window height="889" maximized="true" width="1153" x="127" y="58">
 <fastViewData fastViewLocation="1024"/>
@@ -17,6 +17,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -27,74 +28,24 @@
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
-<part id="1"/>
-<part id="5"/>
-<part id="3"/>
-<part id="4"/>
 <part id="0"/>
-<part id="6"/>
-<part id="7"/>
-<part id="8"/>
-<part id="9"/>
+<part id="1"/>
 <part id="2"/>
-<part id="11"/>
-<part id="10"/>
-<part id="12"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainKneser.java" partName="MainKneser.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn1/src/main/MainKneser.java" title="MainKneser.java" tooltip="NLP_asgn1/src/main/MainKneser.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn1/src/main/MainKneser.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="260"/>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="README" partName="README" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn2/README" title="README" tooltip="NLP_asgn2/README" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn2/README"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BigramTrainer.java" partName="BigramTrainer.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn1/src/main/BigramTrainer.java" title="BigramTrainer.java" tooltip="NLP_asgn1/src/main/BigramTrainer.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn1/src/main/BigramTrainer.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="2295"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Decoder.java" partName="Decoder.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn2/src/main/Decoder.java" title="Decoder.java" tooltip="NLP_asgn2/src/main/Decoder.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn2/src/main/Decoder.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LogLikeUnigram.java" partName="LogLikeUnigram.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn1/src/main/LogLikeUnigram.java" title="LogLikeUnigram.java" tooltip="NLP_asgn1/src/main/LogLikeUnigram.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn1/src/main/LogLikeUnigram.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="2360"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UnigramTrainer.java" partName="UnigramTrainer.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn1/src/main/UnigramTrainer.java" title="UnigramTrainer.java" tooltip="NLP_asgn1/src/main/UnigramTrainer.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn1/src/main/UnigramTrainer.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="14"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LogLikeBigram.java" partName="LogLikeBigram.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn1/src/main/LogLikeBigram.java" title="LogLikeBigram.java" tooltip="NLP_asgn1/src/main/LogLikeBigram.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn1/src/main/LogLikeBigram.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="6960"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BigramDictionary.java" partName="BigramDictionary.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn1/src/main/BigramDictionary.java" title="BigramDictionary.java" tooltip="NLP_asgn1/src/main/BigramDictionary.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn1/src/main/BigramDictionary.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="1371"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainOptimalUnigram.java" partName="MainOptimalUnigram.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn1/src/main/MainOptimalUnigram.java" title="MainOptimalUnigram.java" tooltip="NLP_asgn1/src/main/MainOptimalUnigram.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn1/src/main/MainOptimalUnigram.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="1858"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainBigram.java" partName="MainBigram.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn1/src/main/MainBigram.java" title="MainBigram.java" tooltip="NLP_asgn1/src/main/MainBigram.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn1/src/main/MainBigram.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="1525"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainEM.java" partName="MainEM.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn1/src/main/MainEM.java" title="MainEM.java" tooltip="NLP_asgn1/src/main/MainEM.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn1/src/main/MainEM.java"/>
-<editorState selectionHPixel="0" selectionLength="7039" selectionOffset="191"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WordReader.java" partName="WordReader.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn1/src/main/WordReader.java" title="WordReader.java" tooltip="NLP_asgn1/src/main/WordReader.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn1/src/main/WordReader.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="489"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainGoodBad.java" partName="MainGoodBad.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn1/src/main/MainGoodBad.java" title="MainGoodBad.java" tooltip="NLP_asgn1/src/main/MainGoodBad.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn1/src/main/MainGoodBad.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="170"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainUnigram.java" partName="MainUnigram.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn1/src/main/MainUnigram.java" title="MainUnigram.java" tooltip="NLP_asgn1/src/main/MainUnigram.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn1/src/main/MainUnigram.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="531"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainEMKneser.java" partName="MainEMKneser.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn1/src/main/MainEMKneser.java" title="MainEMKneser.java" tooltip="NLP_asgn1/src/main/MainEMKneser.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn1/src/main/MainEMKneser.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="114"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TauEstimation.java" partName="TauEstimation.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn2/src/main/TauEstimation.java" title="TauEstimation.java" tooltip="NLP_asgn2/src/main/TauEstimation.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn2/src/main/TauEstimation.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="98"/>
 </editor>
 </editors>
 <views>
@@ -243,7 +194,7 @@
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.20961387" ratioLeft="266" ratioRight="1003" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.17809299" ratioLeft="226" ratioRight="1043" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.75" ratioLeft="531" ratioRight="177" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
@@ -365,168 +316,180 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/MainGoodBad.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/MainBigram.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/MainEMKneser.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/BigramTrainer.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/LogLikeBigram.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/MainKneser.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn2/src/main/TauEstimation.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn2/src/main/Decoder.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/NLP_asgn2/README"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/UnigramTrainer.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/BigramDictionary.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/BigramTrainer.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/MainOptimalUnigram.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/LogLikeBigram.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/MainKneser.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/WordReader.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/MainBigram.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/MainEM.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/MainGoodBad.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/MainUnigram.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/LogLikeUnigram.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/WordReader.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/MainOptimalUnigram.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/MainBigram.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/LogLikeBigram.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/MainEM.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/LogLikeBigram.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/MainEM.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn1/src/main/MainEMKneser.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn2/src/main/TauEstimation.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn2/src/main/Decoder.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/NLP_asgn2/README"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn2/src/main/TauEstimation.java"/>
 </editors>
-<item historyLabel="LogLikeBigram.java" index="1">
-<position info="not_deleted" x="6385" y="0"/>
+<item historyLabel="MainBigram.java" index="0">
+<position info="not_deleted" x="1520" y="0"/>
 </item>
-<item historyLabel="MainGoodBad.java" index="0">
-<position info="not_deleted" x="3533" y="0"/>
+<item historyLabel="MainEMKneser.java" index="1">
+<position info="not_deleted" x="114" y="0"/>
 </item>
-<item historyLabel="LogLikeBigram.java" index="1">
-<position info="not_deleted" x="6385" y="0"/>
+<item historyLabel="MainBigram.java" index="0">
+<position info="not_deleted" x="168" y="0"/>
 </item>
-<item historyLabel="MainGoodBad.java" index="0">
-<position info="not_deleted" x="3533" y="0"/>
+<item historyLabel="MainEMKneser.java" index="1">
+<position info="not_deleted" x="114" y="0"/>
 </item>
-<item historyLabel="MainUnigram.java" index="2">
-<position/>
+<item historyLabel="BigramTrainer.java" index="2">
+<position info="not_deleted" x="2295" y="0"/>
 </item>
-<item historyLabel="LogLikeUnigram.java" index="3">
-<position info="not_deleted" x="2360" y="0"/>
-</item>
-<item historyLabel="MainUnigram.java" index="2">
-<position info="not_deleted" x="253" y="0"/>
-</item>
-<item historyLabel="WordReader.java" index="4">
-<position info="not_deleted" x="489" y="0"/>
-</item>
-<item historyLabel="MainUnigram.java" index="2">
-<position info="not_deleted" x="253" y="0"/>
-</item>
-<item historyLabel="LogLikeUnigram.java" index="3">
-<position info="not_deleted" x="2360" y="0"/>
-</item>
-<item historyLabel="MainUnigram.java" index="2">
-<position info="not_deleted" x="253" y="0"/>
-</item>
-<item historyLabel="LogLikeUnigram.java" index="3">
-<position info="not_deleted" x="2360" y="0"/>
-</item>
-<item historyLabel="MainUnigram.java" index="2">
-<position info="not_deleted" x="253" y="0"/>
-</item>
-<item historyLabel="MainUnigram.java" index="2">
-<position/>
-</item>
-<item historyLabel="MainUnigram.java" index="2">
-<position/>
-</item>
-<item historyLabel="MainUnigram.java" index="2">
-<position/>
-</item>
-<item historyLabel="MainOptimalUnigram.java" index="5">
-<position/>
-</item>
-<item historyLabel="MainGoodBad.java" index="0">
-<position info="not_deleted" x="2632" y="0"/>
-</item>
-<item historyLabel="MainBigram.java" index="6">
-<position info="not_deleted" x="1357" y="0"/>
-</item>
-<item historyLabel="MainBigram.java" index="6">
-<position info="not_deleted" x="213" y="0"/>
-</item>
-<item historyLabel="LogLikeBigram.java" index="7">
-<position info="not_deleted" x="1317" y="0"/>
-</item>
-<item historyLabel="MainBigram.java" index="6">
-<position info="not_deleted" x="2140" y="0"/>
-</item>
-<item historyLabel="MainBigram.java" index="6">
-<position info="not_deleted" x="1039" y="0"/>
-</item>
-<item historyLabel="MainBigram.java" index="6">
-<position info="not_deleted" x="883" y="0"/>
-</item>
-<item historyLabel="MainBigram.java" index="6">
-<position info="not_deleted" x="918" y="0"/>
-</item>
-<item historyLabel="MainBigram.java" index="6">
-<position info="not_deleted" x="950" y="0"/>
-</item>
-<item historyLabel="MainBigram.java" index="6">
-<position info="not_deleted" x="951" y="0"/>
-</item>
-<item historyLabel="MainBigram.java" index="6">
-<position info="not_deleted" x="1389" y="0"/>
-</item>
-<item historyLabel="MainBigram.java" index="6">
-<position info="not_deleted" x="1387" y="0"/>
-</item>
-<item historyLabel="MainEM.java" index="8">
-<position info="not_deleted" x="539" y="0"/>
-</item>
-<item historyLabel="MainBigram.java" index="6">
-<position info="not_deleted" x="1363" y="0"/>
-</item>
-<item historyLabel="MainGoodBad.java" index="0">
-<position info="not_deleted" x="1744" y="0"/>
-</item>
-<item historyLabel="MainBigram.java" index="6">
-<position info="not_deleted" x="1363" y="0"/>
-</item>
-<item historyLabel="MainEM.java" index="8">
-<position info="not_deleted" x="539" y="0"/>
-</item>
-<item historyLabel="MainGoodBad.java" index="0">
-<position info="not_deleted" x="170" y="0"/>
-</item>
-<item historyLabel="MainBigram.java" index="6">
-<position info="not_deleted" x="1363" y="0"/>
-</item>
-<item historyLabel="LogLikeBigram.java" index="9">
-<position info="not_deleted" x="1460" y="0"/>
-</item>
-<item historyLabel="LogLikeBigram.java" index="9">
-<position info="not_deleted" x="8546" y="0"/>
-</item>
-<item historyLabel="LogLikeBigram.java" index="9">
-<position info="not_deleted" x="5694" y="15"/>
-</item>
-<item historyLabel="LogLikeBigram.java" index="9">
-<position info="not_deleted" x="7147" y="0"/>
-</item>
-<item historyLabel="MainEM.java" index="10">
-<position info="not_deleted" x="539" y="0"/>
-</item>
-<item historyLabel="MainEMKneser.java" index="11">
-<position/>
-</item>
-<item historyLabel="MainEM.java" index="10">
-<position info="not_deleted" x="191" y="7039"/>
-</item>
-<item historyLabel="MainEMKneser.java" index="11">
-<position/>
-</item>
-<item historyLabel="MainBigram.java" index="6">
-<position info="not_deleted" x="1525" y="0"/>
-</item>
-<item historyLabel="LogLikeBigram.java" index="9">
+<item historyLabel="LogLikeBigram.java" index="3">
 <position info="not_deleted" x="6960" y="0"/>
 </item>
-<item historyLabel="MainBigram.java" index="6">
-<position info="not_deleted" x="1525" y="0"/>
+<item historyLabel="MainEMKneser.java" index="1">
+<position info="not_deleted" x="1141" y="0"/>
 </item>
-<item historyLabel="MainBigram.java" index="6">
-<position info="not_deleted" x="1466" y="0"/>
+<item historyLabel="LogLikeBigram.java" index="3">
+<position info="not_deleted" x="6960" y="0"/>
 </item>
-<item historyLabel="MainBigram.java" index="6">
-<position info="not_deleted" x="1519" y="0"/>
+<item historyLabel="MainEMKneser.java" index="1">
+<position info="not_deleted" x="1141" y="0"/>
 </item>
-<item active="true" historyLabel="MainBigram.java" index="6">
-<position info="not_deleted" x="1520" y="0"/>
+<item historyLabel="MainEMKneser.java" index="1">
+<position info="not_deleted" x="1747" y="0"/>
+</item>
+<item historyLabel="MainEMKneser.java" index="1">
+<position info="not_deleted" x="2585" y="0"/>
+</item>
+<item historyLabel="MainEMKneser.java" index="1">
+<position info="not_deleted" x="5206" y="0"/>
+</item>
+<item historyLabel="MainKneser.java" index="4">
+<position info="not_deleted" x="260" y="0"/>
+</item>
+<item historyLabel="MainBigram.java" index="0">
+<position info="not_deleted" x="168" y="0"/>
+</item>
+<item historyLabel="MainKneser.java" index="4">
+<position info="not_deleted" x="260" y="0"/>
+</item>
+<item historyLabel="MainEMKneser.java" index="1">
+<position/>
+</item>
+<item historyLabel="TauEstimation.java" index="5">
+<position/>
+</item>
+<item historyLabel="Decoder.java" index="6">
+<position info="not_deleted" x="147" y="0"/>
+</item>
+<item historyLabel="Decoder.java" index="6">
+<position info="not_deleted" x="154" y="0"/>
+</item>
+<item historyLabel="TauEstimation.java" index="5">
+<position info="not_deleted" x="93" y="0"/>
+</item>
+<item historyLabel="README" index="7">
+<position info="not_deleted" x="1276" y="0"/>
+</item>
+<item historyLabel="MainEMKneser.java" index="1">
+<position info="not_deleted" x="7271" y="0"/>
+</item>
+<item historyLabel="README" index="7">
+<position info="not_deleted" x="1276" y="0"/>
+</item>
+<item historyLabel="UnigramTrainer.java" index="8">
+<position info="not_deleted" x="14" y="0"/>
+</item>
+<item historyLabel="BigramDictionary.java" index="9">
+<position info="not_deleted" x="1371" y="0"/>
+</item>
+<item historyLabel="BigramTrainer.java" index="10">
+<position info="not_deleted" x="2295" y="0"/>
+</item>
+<item historyLabel="BigramDictionary.java" index="9">
+<position info="not_deleted" x="1371" y="0"/>
+</item>
+<item historyLabel="UnigramTrainer.java" index="8">
+<position info="not_deleted" x="14" y="0"/>
+</item>
+<item historyLabel="README" index="7">
+<position info="not_deleted" x="1276" y="0"/>
+</item>
+<item historyLabel="MainOptimalUnigram.java" index="11">
+<position info="not_deleted" x="1858" y="0"/>
+</item>
+<item historyLabel="LogLikeBigram.java" index="12">
+<position info="not_deleted" x="6960" y="0"/>
+</item>
+<item historyLabel="MainKneser.java" index="13">
+<position info="not_deleted" x="260" y="0"/>
+</item>
+<item historyLabel="MainOptimalUnigram.java" index="11">
+<position info="not_deleted" x="1858" y="0"/>
+</item>
+<item historyLabel="README" index="7">
+<position info="not_deleted" x="1276" y="0"/>
+</item>
+<item historyLabel="WordReader.java" index="14">
+<position info="not_deleted" x="489" y="0"/>
+</item>
+<item historyLabel="MainBigram.java" index="15">
+<position info="not_deleted" x="168" y="0"/>
+</item>
+<item historyLabel="MainEM.java" index="16">
+<position info="not_deleted" x="191" y="7039"/>
+</item>
+<item historyLabel="WordReader.java" index="14">
+<position info="not_deleted" x="489" y="0"/>
+</item>
+<item historyLabel="README" index="7">
+<position info="not_deleted" x="1276" y="0"/>
+</item>
+<item historyLabel="MainGoodBad.java" index="17">
+<position info="not_deleted" x="170" y="0"/>
+</item>
+<item historyLabel="MainUnigram.java" index="18">
+<position info="not_deleted" x="531" y="0"/>
+</item>
+<item historyLabel="LogLikeUnigram.java" index="19">
+<position info="not_deleted" x="2360" y="0"/>
+</item>
+<item historyLabel="MainUnigram.java" index="18">
+<position info="not_deleted" x="531" y="0"/>
+</item>
+<item historyLabel="MainGoodBad.java" index="17">
+<position info="not_deleted" x="170" y="0"/>
+</item>
+<item historyLabel="README" index="7">
+<position/>
+</item>
+<item historyLabel="TauEstimation.java" index="20">
+<position info="not_deleted" x="93" y="0"/>
+</item>
+<item historyLabel="Decoder.java" index="21">
+<position info="not_deleted" x="154" y="0"/>
+</item>
+<item historyLabel="README" index="22">
+<position/>
+</item>
+<item historyLabel="Decoder.java" index="21">
+<position/>
+</item>
+<item active="true" historyLabel="TauEstimation.java" index="23">
+<position/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -545,6 +508,15 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TauEstimation.java" tooltip="NLP_asgn2/src/main/TauEstimation.java">
+<persistable path="/NLP_asgn2/src/main/TauEstimation.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Decoder.java" tooltip="NLP_asgn2/src/main/Decoder.java">
+<persistable path="/NLP_asgn2/src/main/Decoder.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="README" tooltip="NLP_asgn2/README">
+<persistable path="/NLP_asgn2/README"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainEMKneser.java" tooltip="NLP_asgn1/src/main/MainEMKneser.java">
 <persistable path="/NLP_asgn1/src/main/MainEMKneser.java"/>
 </file>

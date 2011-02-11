@@ -7,13 +7,16 @@ public class MainBigram {
 	public static void main(String[] args) {
 		
 		String corpusName = "data/english-senate-0.txt";
-		String heldoutName = "data/english-senate-1.txt";
+//		String heldoutName = "data/english-senate-1.txt";
 		String testName = "data/english-senate-2.txt";			
 
 //		LogLikeBigram ll = new LogLikeBigram(corpusName, heldoutName);
 		
-		double mu = 0.7634;
-		double lambda = 0.6824;
+		double mu1 = 0.7634;
+		double lambda1 = 0.6824;
+		
+		double mu2 = 0.8279;
+		double lambda2 = 0.6959;
 		
 //		double beta = 1;
 //		Random rng = new Random();
@@ -39,9 +42,9 @@ public class MainBigram {
 //		double logLikelihood = llTest.getLogLikelihood(optimalAlpha, beta);
 //		System.out.println(Double.toString(logLikelihood));
 		// generates the LL with a type of mixture model
-		double logLikelihood = llTest.getLogLikelihoodKN(mu, lambda);
+		double logLikelihood = llTest.getLogLikelihoodKN(mu2, lambda2);
 		System.out.println(Double.toString(logLikelihood));
-		logLikelihood = llTest.getLogLikelihood2(mu,lambda);
+		logLikelihood = llTest.getLogLikelihood2(mu1,lambda1);
 		System.out.println(Double.toString(logLikelihood));
 		
 		
