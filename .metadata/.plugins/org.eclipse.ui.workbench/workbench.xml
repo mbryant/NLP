@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="18" version="2.0">
+<workbench progressCount="17" version="2.0">
 <workbenchAdvisor/>
 <window height="889" maximized="true" width="1153" x="127" y="58">
 <fastViewData fastViewLocation="1024"/>
@@ -37,6 +37,7 @@
 <part id="5"/>
 <part id="7"/>
 <part id="8"/>
+<part id="9"/>
 </presentation>
 </folder>
 </info>
@@ -49,9 +50,9 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn2/src/main/Decoder.java"/>
 <editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TauEstimation.java" partName="TauEstimation.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn2/src/main/TauEstimation.java" title="TauEstimation.java" tooltip="NLP_asgn2/src/main/TauEstimation.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TauEstimation.java" partName="TauEstimation.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn2/src/main/TauEstimation.java" title="TauEstimation.java" tooltip="NLP_asgn2/src/main/TauEstimation.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn2/src/main/TauEstimation.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="2437"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="5892"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WordReader.java" partName="WordReader.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn2/src/main/WordReader.java" title="WordReader.java" tooltip="NLP_asgn2/src/main/WordReader.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn2/src/main/WordReader.java"/>
@@ -67,15 +68,19 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TranslationDictionary.java" partName="TranslationDictionary.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn2/src/main/TranslationDictionary.java" title="TranslationDictionary.java" tooltip="NLP_asgn2/src/main/TranslationDictionary.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn2/src/main/TranslationDictionary.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="404"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="3979"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Mat.java" partName="Mat.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn2/src/misc/Mat.java" title="Mat.java" tooltip="NLP_asgn2/src/misc/Mat.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn2/src/misc/Mat.java"/>
 <editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GrabDictionary.java" partName="GrabDictionary.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn2/src/main/GrabDictionary.java" title="GrabDictionary.java" tooltip="NLP_asgn2/src/main/GrabDictionary.java" workbook="DefaultEditorWorkbook">
+<editor focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GrabDictionary.java" partName="GrabDictionary.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn2/src/main/GrabDictionary.java" title="GrabDictionary.java" tooltip="NLP_asgn2/src/main/GrabDictionary.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn2/src/main/GrabDictionary.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="625"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="277"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="/home/mbryant/Classes/CS146/NLP/NLP_asgn2/src/main/Main.java" title="Main.java" tooltip="NLP_asgn2/src/main/Main.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NLP_asgn2/src/main/Main.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
 </editor>
 </editors>
 <views>
@@ -139,7 +144,7 @@
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
@@ -347,161 +352,161 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn2/src/main/TauEstimation.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn2/src/main/GrabDictionary.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn2/src/main/Main.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn2/src/main/TranslationDictionary.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn2/src/main/Pair.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn2/src/main/WordReader.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn2/src/misc/Mat.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn2/src/main/TranslationDictionary.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NLP_asgn2/src/main/GrabDictionary.java"/>
 </editors>
 <item historyLabel="TauEstimation.java" index="0">
-<position info="not_deleted" x="4963" y="0"/>
+<position info="not_deleted" x="5244" y="0"/>
 </item>
 <item historyLabel="TauEstimation.java" index="0">
-<position info="not_deleted" x="4897" y="0"/>
+<position info="not_deleted" x="5434" y="0"/>
 </item>
 <item historyLabel="TauEstimation.java" index="0">
-<position info="not_deleted" x="5428" y="0"/>
-</item>
-<item historyLabel="TranslationDictionary.java" index="1">
-<position info="not_deleted" x="404" y="0"/>
+<position info="not_deleted" x="5281" y="0"/>
 </item>
 <item historyLabel="TauEstimation.java" index="0">
-<position info="not_deleted" x="5428" y="0"/>
-</item>
-<item historyLabel="TauEstimation.java" index="0">
-<position info="not_deleted" x="5169" y="0"/>
-</item>
-<item historyLabel="TauEstimation.java" index="0">
-<position info="not_deleted" x="5251" y="0"/>
-</item>
-<item historyLabel="TauEstimation.java" index="0">
-<position info="not_deleted" x="5267" y="0"/>
-</item>
-<item historyLabel="TauEstimation.java" index="0">
-<position info="not_deleted" x="5283" y="0"/>
-</item>
-<item historyLabel="Pair.java" index="2">
 <position/>
 </item>
-<item historyLabel="WordReader.java" index="3">
-<position info="not_deleted" x="692" y="0"/>
+<item historyLabel="TauEstimation.java" index="0">
+<position info="not_deleted" x="5431" y="0"/>
+</item>
+<item historyLabel="TauEstimation.java" index="0">
+<position info="not_deleted" x="5394" y="0"/>
+</item>
+<item historyLabel="TauEstimation.java" index="0">
+<position info="not_deleted" x="5431" y="0"/>
+</item>
+<item historyLabel="TauEstimation.java" index="0">
+<position info="not_deleted" x="5422" y="0"/>
+</item>
+<item historyLabel="TauEstimation.java" index="0">
+<position info="not_deleted" x="5453" y="0"/>
 </item>
 <item historyLabel="TauEstimation.java" index="0">
 <position info="not_deleted" x="445" y="0"/>
 </item>
-<item historyLabel="TranslationDictionary.java" index="1">
-<position info="not_deleted" x="404" y="0"/>
-</item>
-<item historyLabel="Mat.java" index="4">
-<position/>
+<item historyLabel="GrabDictionary.java" index="1">
+<position info="not_deleted" x="474" y="0"/>
 </item>
 <item historyLabel="TauEstimation.java" index="0">
 <position info="not_deleted" x="445" y="0"/>
 </item>
-<item historyLabel="GrabDictionary.java" index="5">
-<position info="not_deleted" x="96" y="0"/>
+<item historyLabel="GrabDictionary.java" index="1">
+<position info="not_deleted" x="270" y="0"/>
 </item>
-<item historyLabel="GrabDictionary.java" index="5">
-<position info="not_deleted" x="592" y="0"/>
-</item>
-<item historyLabel="Mat.java" index="4">
+<item historyLabel="Main.java" index="2">
 <position/>
 </item>
-<item historyLabel="Pair.java" index="2">
-<position info="not_deleted" x="169" y="0"/>
+<item historyLabel="GrabDictionary.java" index="1">
+<position info="not_deleted" x="270" y="0"/>
 </item>
-<item historyLabel="WordReader.java" index="3">
-<position info="not_deleted" x="692" y="0"/>
+<item historyLabel="GrabDictionary.java" index="1">
+<position/>
 </item>
-<item historyLabel="TranslationDictionary.java" index="1">
+<item historyLabel="GrabDictionary.java" index="1">
+<position info="not_deleted" x="632" y="0"/>
+</item>
+<item historyLabel="GrabDictionary.java" index="1">
+<position/>
+</item>
+<item historyLabel="GrabDictionary.java" index="1">
+<position info="not_deleted" x="632" y="0"/>
+</item>
+<item historyLabel="GrabDictionary.java" index="1">
+<position/>
+</item>
+<item historyLabel="GrabDictionary.java" index="1">
+<position info="not_deleted" x="632" y="0"/>
+</item>
+<item historyLabel="GrabDictionary.java" index="1">
+<position/>
+</item>
+<item historyLabel="GrabDictionary.java" index="1">
+<position/>
+</item>
+<item historyLabel="GrabDictionary.java" index="1">
+<position/>
+</item>
+<item historyLabel="GrabDictionary.java" index="1">
+<position/>
+</item>
+<item historyLabel="GrabDictionary.java" index="1">
+<position/>
+</item>
+<item historyLabel="GrabDictionary.java" index="1">
+<position info="not_deleted" x="631" y="0"/>
+</item>
+<item historyLabel="TranslationDictionary.java" index="3">
 <position info="not_deleted" x="404" y="0"/>
 </item>
 <item historyLabel="TauEstimation.java" index="0">
-<position info="not_deleted" x="445" y="0"/>
-</item>
-<item historyLabel="TranslationDictionary.java" index="1">
-<position info="not_deleted" x="404" y="0"/>
-</item>
-<item historyLabel="WordReader.java" index="3">
-<position info="not_deleted" x="692" y="0"/>
-</item>
-<item historyLabel="Pair.java" index="2">
-<position info="not_deleted" x="169" y="0"/>
-</item>
-<item historyLabel="Mat.java" index="4">
-<position/>
-</item>
-<item historyLabel="GrabDictionary.java" index="5">
-<position info="not_deleted" x="592" y="0"/>
-</item>
-<item historyLabel="GrabDictionary.java" index="5">
-<position info="not_deleted" x="411" y="0"/>
-</item>
-<item historyLabel="GrabDictionary.java" index="5">
-<position info="not_deleted" x="329" y="0"/>
-</item>
-<item historyLabel="GrabDictionary.java" index="5">
-<position info="not_deleted" x="362" y="0"/>
-</item>
-<item historyLabel="GrabDictionary.java" index="5">
-<position info="not_deleted" x="393" y="0"/>
-</item>
-<item historyLabel="GrabDictionary.java" index="5">
-<position info="not_deleted" x="409" y="0"/>
-</item>
-<item historyLabel="GrabDictionary.java" index="5">
-<position info="not_deleted" x="436" y="0"/>
-</item>
-<item historyLabel="GrabDictionary.java" index="5">
-<position info="not_deleted" x="510" y="0"/>
-</item>
-<item historyLabel="GrabDictionary.java" index="5">
-<position info="not_deleted" x="588" y="0"/>
-</item>
-<item historyLabel="GrabDictionary.java" index="5">
-<position info="not_deleted" x="628" y="0"/>
-</item>
-<item historyLabel="Mat.java" index="4">
-<position/>
-</item>
-<item historyLabel="Pair.java" index="2">
-<position info="not_deleted" x="169" y="0"/>
-</item>
-<item historyLabel="WordReader.java" index="3">
-<position info="not_deleted" x="692" y="0"/>
-</item>
-<item historyLabel="TranslationDictionary.java" index="1">
-<position info="not_deleted" x="404" y="0"/>
+<position info="not_deleted" x="5526" y="0"/>
 </item>
 <item historyLabel="TauEstimation.java" index="0">
-<position info="not_deleted" x="5303" y="0"/>
+<position info="not_deleted" x="5560" y="0"/>
 </item>
-<item historyLabel="TranslationDictionary.java" index="1">
+<item historyLabel="TauEstimation.java" index="0">
+<position info="not_deleted" x="5496" y="0"/>
+</item>
+<item historyLabel="TranslationDictionary.java" index="4">
 <position info="not_deleted" x="404" y="0"/>
 </item>
-<item historyLabel="WordReader.java" index="3">
-<position info="not_deleted" x="692" y="0"/>
+<item historyLabel="TranslationDictionary.java" index="4">
+<position info="not_deleted" x="3732" y="91"/>
 </item>
-<item historyLabel="Pair.java" index="2">
-<position info="not_deleted" x="169" y="0"/>
+<item historyLabel="TranslationDictionary.java" index="4">
+<position info="not_deleted" x="4071" y="0"/>
 </item>
-<item historyLabel="Mat.java" index="4">
-<position/>
+<item historyLabel="TauEstimation.java" index="0">
+<position info="not_deleted" x="5496" y="0"/>
+</item>
+<item historyLabel="TranslationDictionary.java" index="4">
+<position info="not_deleted" x="3731" y="92"/>
+</item>
+<item historyLabel="TauEstimation.java" index="0">
+<position info="not_deleted" x="5496" y="0"/>
+</item>
+<item historyLabel="TranslationDictionary.java" index="4">
+<position info="not_deleted" x="3731" y="92"/>
+</item>
+<item historyLabel="TauEstimation.java" index="0">
+<position info="not_deleted" x="5496" y="0"/>
+</item>
+<item historyLabel="TauEstimation.java" index="0">
+<position info="not_deleted" x="5496" y="0"/>
+</item>
+<item historyLabel="TranslationDictionary.java" index="4">
+<position info="not_deleted" x="4053" y="0"/>
+</item>
+<item historyLabel="TauEstimation.java" index="0">
+<position info="not_deleted" x="5496" y="0"/>
+</item>
+<item historyLabel="TranslationDictionary.java" index="4">
+<position info="not_deleted" x="4053" y="0"/>
+</item>
+<item historyLabel="TranslationDictionary.java" index="4">
+<position info="not_deleted" x="3979" y="0"/>
+</item>
+<item historyLabel="TauEstimation.java" index="0">
+<position info="not_deleted" x="5496" y="0"/>
+</item>
+<item historyLabel="TauEstimation.java" index="0">
+<position info="not_deleted" x="5460" y="0"/>
+</item>
+<item historyLabel="TauEstimation.java" index="0">
+<position info="not_deleted" x="5496" y="0"/>
 </item>
 <item historyLabel="GrabDictionary.java" index="5">
-<position info="not_deleted" x="625" y="0"/>
+<position info="not_deleted" x="859" y="0"/>
 </item>
-<item historyLabel="Mat.java" index="4">
-<position/>
+<item historyLabel="GrabDictionary.java" index="5">
+<position info="not_deleted" x="624" y="0"/>
 </item>
-<item historyLabel="WordReader.java" index="3">
-<position info="not_deleted" x="692" y="0"/>
-</item>
-<item historyLabel="TranslationDictionary.java" index="1">
-<position info="not_deleted" x="404" y="0"/>
-</item>
-<item active="true" historyLabel="TauEstimation.java" index="0">
-<position info="not_deleted" x="5372" y="0"/>
+<item active="true" historyLabel="GrabDictionary.java" index="5">
+<position info="not_deleted" x="859" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -520,6 +525,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="NLP_asgn2/src/main/Main.java">
+<persistable path="/NLP_asgn2/src/main/Main.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GrabDictionary.java" tooltip="NLP_asgn2/src/main/GrabDictionary.java">
 <persistable path="/NLP_asgn2/src/main/GrabDictionary.java"/>
 </file>
@@ -561,9 +569,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainBigram.java" tooltip="NLP_asgn1/src/main/MainBigram.java">
 <persistable path="/NLP_asgn1/src/main/MainBigram.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainOptimalUnigram.java" tooltip="NLP_asgn1/src/main/MainOptimalUnigram.java">
-<persistable path="/NLP_asgn1/src/main/MainOptimalUnigram.java"/>
 </file>
 </mruList>
 </workbench>
